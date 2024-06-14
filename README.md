@@ -1,4 +1,4 @@
-# local-dektop-server
+# Local Desktop Server
 RFID &amp; QR Integrated API server
 
 ## Auto start server on startup Windows
