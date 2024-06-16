@@ -1,8 +1,12 @@
 const express = require('express');
 const app = express();
+const cors = require('cors');
 
 const bodyParser = require('body-parser');
 app.use(bodyParser.json());
+
+// Enable CORS for all responses
+app.use(cors());
 
 const rfidRouter = require('./routes/rfid.routes');
 const qrRouter = require('./routes/qr.routes');
